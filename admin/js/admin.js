@@ -35,7 +35,7 @@ $('.woocommerce-page form#post').on('submit', function(e){
         }, 500);
       },
       error: function(err){
-        alert('Что-то пошло не так :-(');
+        alert(err);
       }
     });
   });

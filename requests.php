@@ -241,7 +241,7 @@ function update_product($post_id) {
         }
 
         if ( function_exists( 'pll_the_languages' ) ) {
-            $status = ['btn' => __('Update'), 'status' => __('Published'), 'success_msg' => __('Product is updated!')];
+            $status = ['btn' => __('Update'), 'status' => __('Published'), 'success_msg' => __('Product is saved!')];
         } else {
             $status = ['btn' => __('Update', 'textdomain'), 'status' => __('Published', 'textdomain'), 'success_msg' => __('Product is updated!', 'textdomain')];
         }
