@@ -46,8 +46,7 @@
     if ( function_exists( 'pll_register_string' ) ) {
       pll_register_string('woocommerce-admin-ajax-strings', 'Update');
       pll_register_string('woocommerce-admin-ajax-strings', 'Published');
-      pll_register_string('woocommerce-admin-ajax-strings', 'Product is updated!');
-      pll_register_string('woocommerce-admin-ajax-strings', 'Something is wrong!');
+      pll_register_string('woocommerce-admin-ajax-strings', 'Product is saved!');
     }
   }
   add_action( 'admin_init', 'plugin_pll_register_string' );
