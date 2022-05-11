@@ -1,0 +1,35 @@
+/***
+Admin Panel Styles
+*/
+
+/* Admin Panel -> Add loading styles (post_type=product) */
+.submit-btn{
+    display: inline-block;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    min-height: 30px;
+    line-height: 2.15384615;
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.ajax-loading, .button.ajax-loading, .button.ajax-loading:focus, .button.ajax-loading[disabled], .button.ajax-loading:disabled{
+    color: #fff!important;
+    background-image: linear-gradient(-45deg,var(--wp-admin-theme-color) 33%,var(--wp-admin-theme-color-darker-20) 0,var(--wp-admin-theme-color-darker-20) 70%,var(--wp-admin-theme-color) 0)!important;
+    border-color: var(--wp-admin-theme-color)!important;
+    animation: components-button__busy-animation 2.5s linear infinite!important;
+    opacity: 1!important;
+    background-size: 100px 100%!important;
+    visibility: visible!important;
+}
